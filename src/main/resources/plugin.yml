@@ -1,0 +1,23 @@
+name: AbilityWheel
+version: '${project.version}'
+main: com.abilitywheel.AbilityWheel
+api-version: '1.21'
+description: Permanent ability selector wheel for SMP servers
+authors: [ AbilityWheel ]
+
+commands:
+  ability:
+    description: Ability wheel commands
+    usage: /ability
+    aliases: [aw, abilities]
+
+permissions:
+  abilitywheel.use:
+    description: Use ability wheel
+    default: true
+  abilitywheel.respin:
+    description: Re-spin ability wheel (costs 5 netherite blocks)
+    default: true
+  abilitywheel.admin:
+    description: Admin ability commands
+    default: op

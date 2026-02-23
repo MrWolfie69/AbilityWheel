@@ -82,7 +82,7 @@ public class WheelGUI {
         ));
 
         // Enchantment glow
-        meta.addEnchant(Enchantment.LUCK, 1, true);
+        meta.addEnchant(Enchantment.LOOT_BONUS_MOBS, 1, true);
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 
         item.setItemMeta(meta);
